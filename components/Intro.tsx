@@ -9,7 +9,9 @@ import { FaGithub, FaGithubSquare } from "react-icons/fa";
 
 export default function Intro() {
   return (
-            <section className="max-w-[55rem] mb-28 text-center sm:mb-0">
+            <section className="max-w-[55rem] mb-28 text-center sm:mb-0 scroll-mt-28" 
+            id="home"
+            >
                 <div className="flex items-center justify-center">
                     <div className="relative">
                         <motion.div 
@@ -17,9 +19,9 @@ export default function Intro() {
                             animate={{ opacity: 1, scale:1}}
                             transition={{
                                 type: "spring",
-                                stiffness:125,
-                                delay:0.1,
-                                duration: 0.2,
+                                stiffness:25,
+                                delay:0.2,
+                                duration: 0.5,
                             }}
                         >
                             <Image 
@@ -40,13 +42,14 @@ export default function Intro() {
                 <motion.h1 className="text-gray-700 text-center text-2xl mb-10 mt-4 px-4 font-medium leading-[1.5] tracking-wider sm:text-4xl"
                 initial={{ opacity:0, y:100}}
                 animate={{ opacity:1, y:0 }}
-                >
+                >   
+                    <span className="text-lg text-gray-400 font-bold">We are Weber Dever.</span> <br />
                     Get your business an <span className="font-bold">online presence</span> with us.    <br />
                     Let <span className="font-bold">new customers</span> find you everywhere. <br />
                     Open the doors for the new <span className="font-bold">opportunities.</span>.
                 </motion.h1>
 
-                <motion.div className="flex flex-col sm:flex-row justify-center gap-4 px-4 text-lg font-semibold"
+                <motion.div className="flex flex-col sm:flex-row items-center justify-center gap-4 px-4 text-lg font-semibold"
                 initial={{ opacity:0, y:100}}
                 animate={{ opacity:1, y:0 }}
                 transition={{
@@ -57,15 +60,15 @@ export default function Intro() {
                         Contact us here
                             <BsArrowRight  className="opacity-70 group-hover:translate-x-1 transition" />
                     </Link>
-                    <Link href="#contact" className="bg-white text-gray-800 text-[20px] px-7 py-3 flex items-center gap-2 rounded-full border border-black/10 hover:underline hover:bg-gray-50   focus:scale-110 hover:scale-110   tracking-wider">LinkedIn                            
+                    <Link href="#contact" className="bg-white text-gray-800 text-[20px] px-7 py-3 flex items-center gap-2 rounded-full border border-black/10 hover:bg-gray-50   focus:scale-110 hover:scale-110   tracking-wider">
+                            LinkedIn       
                     </Link>
-                    <Link href={"htps://www.x.com/siddbadal"} className="bg-white text-gray-700 p-4 flex items-center gap-2 rounded-full border-black/10hover:bg-gray-100 focus:scale-110 hover:scale-110 ">
+                    <Link href={"htps://www.x.com/siddbadal"} className="bg-white text-gray-700 p-4 flex items-center gap-2 rounded-full border-black/10 hover:bg-gray-100 focus:scale-110 hover:scale-[1.05] ">
                             <BsTwitterX />
                     </Link>
                     <Link href={"htps://www.x.com/siddbadal"} className="bg-white text-gray-700 p-4 flex items-center gap-2 rounded-full text-[1.35rem] border-black/10 hover:bg-gray-100 focus:scale-110 hover:scale-110 ">
                             <FaGithubSquare  />
                     </Link>
-
                 </motion.div>
             </section>
   )

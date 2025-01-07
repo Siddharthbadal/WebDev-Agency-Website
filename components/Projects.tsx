@@ -5,9 +5,11 @@ import Project from './Project'
 
 export default function Projects() {
   return (
-    <section>
-        <SectionHeading>Projects</SectionHeading>
+    <section id='services' className='scroll-mt-28'>
+        
+        <SectionHeading>Services</SectionHeading>
         <div>
+            
             {
                 projectsData.map((project, index)=>(
                     <React.Fragment key={index} >

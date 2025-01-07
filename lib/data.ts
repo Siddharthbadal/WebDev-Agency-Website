@@ -17,16 +17,16 @@ export const links = [
     hash: "#about",
   },
   {
-    name: "Projects",
-    hash: "#projects",
+    name: "Services",
+    hash: "#services",
   },
   {
-    name: "Skills",
-    hash: "#skills",
+    name: "Tech",
+    hash: "#techs",
   },
   {
-    name: "Experience",
-    hash: "#experience",
+    name: "Process",
+    hash: "#process",
   },
   {
     name: "Contact",
@@ -63,24 +63,24 @@ export const experiencesData = [
 
 export const projectsData = [
   {
-    title: "CorpComment",
+    title: "Web Development",
     description:
-      "I worked as a full-stack developer on this startup project for 2 years. Users can give public feedback to companies.",
-    tags: ["React", "Next.js", "MongoDB", "Tailwind", "Prisma"],
+      "Building web apps from scratch. Design to Development. A mobile friendly app for your business.",
+    tags: ["Next.js","React", "Tailwind", "Bootstrap", "SEO", "Farmer Motion"],
     imageUrl: image1,
   },
   {
-    title: "rmtDev",
+    title: "Backend Developments",
     description:
-      "Job board for remote developer jobs. I was the front-end developer. It has features like filtering, sorting and pagination.",
-    tags: ["React", "TypeScript", "Next.js", "Tailwind", "Redux"],
+      "Developing apps with backend. Rest APIs. Admin Panel. Permissions and authentications. Hosting on cloud.",
+    tags: ["Django", "Python", "Laravel", "PHP", "javaScript", "AWS"],
     imageUrl: image2,
   },
   {
-    title: "Word Analytics",
+    title: "Data Driven Apps",
     description:
-      "A public web app for quick analytics on text. It shows word count, character count and social media post limits.",
-    tags: ["React", "Next.js", "SQL", "Tailwind", "Framer"],
+      "Building data driven apps. Dashboards. Analytics apps. Automations. and Performance tracking projects.",
+    tags: ["Python", "Next.js", "FastAPI", "Streamlit",  "Cloud", "Linux"],
     imageUrl: image3,
   },
 ] as const;

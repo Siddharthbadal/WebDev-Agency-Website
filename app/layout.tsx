@@ -9,9 +9,8 @@ const geistSans = Inter({
 });
 
 
-
 export const metadata: Metadata = {
-  title: "Web Dev",
+  title: "Weber Dever",
   description: "Web Dv Agency",
 };
 
@@ -21,7 +20,7 @@ export default function RootLayout({
   children: React.ReactNode;
 }>) {
   return (
-    <html lang="en">
+    <html lang="en" className="!scroll-smooth">
       <body
         className={`${geistSans.variable} antialiased bg-gray-50 text-gray-950 relative pt-28 sm:pt-36 dark:bg-gray-50 dark:text-gray-50 dark:text-opacity-90`}
       >
