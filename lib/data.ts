@@ -1,7 +1,7 @@
 import React from "react";
-import { CgWorkAlt } from "react-icons/cg";
-import { FaReact } from "react-icons/fa";
-import { LuGraduationCap } from "react-icons/lu";
+import { LuShieldCheck } from "react-icons/lu";
+import { LuAnvil } from "react-icons/lu";
+import { LuPhone } from "react-icons/lu";
 import image1 from "@/public/image1.jpg";
 import image2 from "@/public/image2.jpg";
 import image3 from "@/public/image3.jpg";
@@ -34,30 +34,30 @@ export const links = [
   },
 ] as const;
 
-export const experiencesData = [
+export const processData = [
   {
-    title: "Graduated bootcamp",
-    location: "Miami, FL",
+    title: "Understaning business needs",
+    location: "Find Call",
     description:
-      "I graduated after 6 months of studying. I immediately found a job as a front-end developer.",
-    icon: React.createElement(LuGraduationCap),
-    date: "2019",
+      "In the first phase, we try to undesratnd business needs and goals with products of the company.",
+    icon: React.createElement(LuPhone),
+    date: "Let's talk",
   },
   {
-    title: "Front-End Developer",
-    location: "Orlando, FL",
+    title: "Project requirements",
+    location: "Market Needs",
     description:
-      "I worked as a front-end developer for 2 years in 1 job and 1 year in another job. I also upskilled to the full stack.",
-    icon: React.createElement(CgWorkAlt),
-    date: "2019 - 2021",
+      "In the second phase, we analyze your market conditions, online possibilities and present the techs options for the project.",
+    icon: React.createElement(LuShieldCheck),
+    date: "Let's Diccuss",
   },
   {
-    title: "Full-Stack Developer",
-    location: "Houston, TX",
+    title: "Start the Project ",
+    location: "Set Up",
     description:
-      "I'm now a full-stack developer working as a freelancer. My stack includes React, Next.js, TypeScript, Tailwind, Prisma and MongoDB. I'm open to full-time opportunities.",
-    icon: React.createElement(FaReact),
-    date: "2021 - present",
+      "After requirements gathering, in the final phase of out meeting we start the project and create a continus feedback system. ",
+    icon: React.createElement(LuAnvil),
+    date: "Let's Start",
   },
 ] as const;
 
@@ -85,7 +85,7 @@ export const projectsData = [
   },
 ] as const;
 
-export const skillsData = [
+export const techsData = [
   "HTML",
   "CSS",
   "JavaScript",
