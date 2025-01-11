@@ -4,6 +4,7 @@ import Process from "@/components/Process";
 import Projects from "@/components/Projects";
 import SectionDivider from "@/components/SectionDivider";
 import Techs from "@/components/Techs";
+import Contact from "../components/Contact";
 
 
 export default function Home() {
@@ -16,6 +17,7 @@ export default function Home() {
           <Projects />
           <Techs  />
           <Process  />
+          <Contact  />
         </main>
   );
 }

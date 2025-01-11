@@ -2,6 +2,8 @@ import type { Metadata } from "next";
 import { Inter } from "next/font/google";
 import "./globals.css";
 import Header from "@/components/Header";
+import { Toaster } from "react-hot-toast";
+import Footer from "@/components/Footer";
 
 const geistSans = Inter({
   variable: "--font-geist-sans",
@@ -29,8 +31,9 @@ export default function RootLayout({
 
        
         <Header/>
-
+        <Toaster position="top-right"/>
         {children}
+        <Footer />
 
 
       </body>
