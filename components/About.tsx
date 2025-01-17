@@ -14,11 +14,11 @@ export default function About() {
 
     >
         <SectionHeading>About Us</SectionHeading>
-        <p className="mb-3 text-gray-600 text-xl">
+        <p className="mb-3 text-gray-600 text-xl dark:text-gray-200">
             We build <span className="font-semibold">web apps.</span> And help your  <span className="font-semibold">business grow. </span>
             we have worked for various clients <span className="font-semibold">accross the globe.</span>. We not only build and design websites, we create an <span className="font-semibold"> online presence</span> for your business in your market. 
         </p>
-        <p className="mb-3 text-gray-600 text-xl">
+        <p className="mb-3 text-gray-600 text-xl dark:text-gray-200">
             Lorem ipsum dolor sit amet consectetur adipisicing elit. Illum, aperiam.
         </p>
     </motion.div>

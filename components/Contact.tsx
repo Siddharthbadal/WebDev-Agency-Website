@@ -28,9 +28,9 @@ export default function Contact() {
     }}
     >
         <SectionHeading >Contact</SectionHeading>
-        <p className="text-xl text-gray-600 ">Contact me here at {" "} 
+        <p className="text-xl text-gray-600 dark:text-gray-200 ">Contact me here at {" "} 
             <Link 
-                href={'mailto:indiandevcom@gmail.com'}    className="underline">
+                href={'mailto:indiandevcom@gmail.com'}    className="underline dark:text-gray-200">
                     weber.dever@abcd.com
             </Link> 
             {" "} or fill the form.

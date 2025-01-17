@@ -31,7 +31,7 @@ export default function Techs() {
                 techsData.map((skill, index)=>(
                     <motion.li 
                         key={index}
-                        className="bg-white border-gray-700 rounded-xl py-3 px-5"
+                        className="bg-white border-gray-700 rounded-xl py-3 px-5 dark:text-gray-200 dark:bg-gray-600"
                         variants={fadInAnimationVariants}
                         initial="initial"
                         whileInView={"animate"}

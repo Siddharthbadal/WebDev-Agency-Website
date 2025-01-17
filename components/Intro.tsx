@@ -27,11 +27,11 @@ export default function Intro() {
                             <Image 
                                 src="https://res.cloudinary.com/db4n4ciqv/image/upload/t_better/v1735998757/man-in-work_ju2vaj.png"
                             alt="image"
-                            width={800}
+                            width={1200}
                             height={800}
                             quality={100}
                             priority= {true}
-                            className="w-64 h-64 object-cover rounded-full shadow-xl"
+                            className="w-64 h-64 object-cover shadow-xl"
                             />
 
                         </motion.div>
@@ -39,14 +39,14 @@ export default function Intro() {
                     </div>
                 </div>
 
-                <motion.h1 className="text-gray-700 text-center text-2xl mb-10 mt-4 px-4 font-medium leading-[1.5] tracking-wider sm:text-4xl"
+                <motion.h1 className="text-gray-700 text-center text-2xl mb-10 mt-4 px-4 font-medium leading-[1.5] tracking-wider sm:text-4xl dark:text-gray-100"
                 initial={{ opacity:0, y:100}}
                 animate={{ opacity:1, y:0 }}
                 >   
-                    <span className="text-lg text-gray-400 font-bold">We are Weber Dever.</span> <br />
-                    Get your business an <span className="font-bold">online presence</span> with us.    <br />
-                    Let <span className="font-bold">new customers</span> find you everywhere. <br />
-                    Open the doors for the new <span className="font-bold">opportunities.</span>.
+                    <span className="text-lg text-gray-400 font-bold dark:text-gray-200">We are Weber Dever.</span> <br />
+                    Get your business an <span className="font-bold dark:text-gray-200">online presence</span> with us.    <br />
+                    Let <span className="font-bold dark:text-gray-200">new customers</span> find you everywhere. <br />
+                    Open the doors for the new <span className="font-bold dark:text-gray-200">opportunities.</span>.
                 </motion.h1>
 
                 <motion.div className="flex flex-col sm:flex-row items-center justify-center gap-4 px-4 text-lg font-semibold"
